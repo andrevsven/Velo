@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Велопрокат</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+		$(function(){$("a[href*=#]:not([href=#])").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=$(this.hash);if(t=t.length?t:$("[name="+this.hash.slice(1)+"]"),t.length)return $("html,body").animate({scrollTop:t.offset().top},1000),!1}})});
+	</script>
+	<script>
+		$(document).ready(function(){
+			// Фикмированная шапка при скролле
+			$("#header").removeClass("default");
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 80) {
+					$("#header").addClass("default").fadeIn('fast');
+				} else {
+					$("#header").removeClass("default").fadeIn('fast');
+				};
+			});
+});
+	</script>
+
+</head>
+<body>
+	<header id="head">
+		<div class="wrapper">
+			<div id="header" class="header-wrap">
+				<div class="logo">
+					<a href="#"><img src="img/icon1.png">
+					<p class="log">Прокат в Казани</p></a>
+				</div>
+				<nav class="navigation">
+				<ul class="menu">
+					<li class="menu_item"><a href="#head" class="menu_link">Главная</a></li>
+					<li class="menu_item"><a href="#price" class="menu_link">Прайс</a></li>
+					<li class="menu_item"><a href="#yslprok1" class="menu_link">Условия</a></li>
+					<li class="menu_item"><a href="#zakaz" class="menu_link">Заказать</a></li>
+          		 </ul>
+       	</nav>
+		</div>
+		</div>
+	</header>
+	<section class="banner">
+		<div class="wrapper">
+			<div class="prokat">
+			<h1>Прокат в Казани <br>по низким ценам!</h1>
+			<p>But I must explain to you how all this mistaken idea of<br>
+			 denouncing pleasure and praising pain was born </p>
+			<a href="#" class="button1">Заказать</a>
+		</div><img src="img/Babyha.png" class="foto12">
+		</div>
+	</section>
+<section class="dogovor">
+	<div class="wrapper">
+		<div class="ysl" id="yslprok1">
+			<span class="yslprok">Условия проката</span>
+				<p>1. Клиент обязуется аккуратно и бережно обращаться c оборудованием так же эксплуатировать его по назначению и в соответствующих условиях.</p>
+				<p>2. Клиент обязуется вернуть оборудование в указанный срок в чистом и исправном состоянии.</p>
+				<p>3. В случаях повреждения инвентаря, клиент берет на себя все расходы по устранению выявленных недостатков и приобретения недостающих комплектующих.<p>
+				<p>4. В случае потери оборудования или полной его конструктивной гибели по вине клиента, клиент обязуется оплатить его полную стоимость.</p> 
+				<p>5. Кража оборудования будет преследоваться согласно законодательству РФ.</p> 
+				<p>6. Клиент осознает и принимает на себя риск связанный с эксплуатацией оборудования. Прокат не несет ответственность за жизнь и здоровье клиента.</p>
+				<p>7. Для некоторых категорий инвентаря (оборудования) необходимо внести залог (документ с фотографией или 30% от стоимости оборудования).</p>
+		
+		</div>
+		</div>
+</section>
+<section class="zakaz">
+	<div class="wrapper">
+		<div id="zakaz" class="zakaz-wrap">
+	<h2>Заказать</h2>
+			<form class="contact_form" action="contact-form.php" method="post">
+				 <p>
+            <label for="name"></label>
+            <input type="text"  name="name" placeholder="Наименование" required />
+        </p>
+    <p>
+            <label for="name"></label>
+            <input type="text"  name="name" placeholder="Введите ваше имя" required />
+        </p>
+        <p>
+            <label for="tel"></label>
+            <input type="tel" name="tel" placeholder="Введите номер телефона" required />
+            <span class="form_hint">Правильный формат "+7-123-4567890"</span>
+        </p>
+        <p>
+            <label for="message"></label>
+            <textarea name="message" cols="40" rows="6" required ></textarea>
+        </p>
+        <input name="bezspama" type="text" style="display:none" value="" />
+        <p>
+            <button class="submit" type="submit">Заказать</button>
+        </p>
+</form>
+		</div>
+</section>
+<section class="table_2">
+	<div class="wrapper">
+		<div id="price" class="table_zog"><h3>Прайс на услуги проката</h3></div>
+		<div class="table-wrap">
+	<table >
+   <tr>
+    <th rowspan="2" class="naim">Наименование</th>
+    <th rowspan="2">Залог</th>
+    <th colspan="6" class="pay">Стоимость</th>
+  </tr>
+  <tr>
+    <td colspan="1" class="first">Час</td>
+    <td colspan="1" class="first">2-й час</td>
+    <td colspan="1" class="first">День</td>
+    <td colspan="1" class="first">Сутки</td>
+    <td colspan="1" class="first">Неделя</td>
+    <td colspan="1" class="first">Месяц</td>
+  </tr>
+	<tr>
+		<td>Велосипед</td>
+		<td> </td>
+		<td>150</td>
+		<td>150</td>
+		<td>500</td>
+		<td>600</td>
+		<td> </td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>Велосипед детский</td>
+		<td> </td>
+		<td>100	</td>
+		<td>100</td>
+		<td>300</td>
+		<td>400</td>
+		<td>1500</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>Роликовые коньки</td>
+		<td> </td>
+		<td>100</td>
+		<td>100</td>
+		<td>300</td>
+		<td>400</td>
+		<td>1200</td>
+		<td> </td>
+	</tr>
+	<tr>
+		<td>Сноуборд</td>
+		<td> </td>
+		<td>150</td>
+		<td>100</td>
+		<td>400</td>
+		<td>500</td>
+		<td> </td>
+		<td> </td>
+	</tr>
+  </table>
+  </div>
+  <div class="loog">
+  <img class="velik" src="img/vel.png">
+  <img class="logos" src="img/LOGO.png">
+</div>
+	</div>
+</section>
+
+
+</body>
+</html>

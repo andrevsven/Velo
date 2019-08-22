@@ -1,0 +1,414 @@
+body{
+	color: #595959;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+}
+header{
+	position: absolute;
+	top: 57px;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.krug1{
+	position: absolute;
+	left: 627px;
+	top: -268px;
+	z-index: 1;
+
+}
+.wrapper{
+	max-width: 1920px;
+	padding: 0 0px;
+	margin: 0 auto;
+}
+.logo a{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+.log{
+	font-family: Ubuntu;
+margin-left: 15px;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+color: #6620C5;
+text-align: center;
+padding-top: 
+}
+.logo {
+	display: flex;
+	text-align: center;
+	margin-left: 108px;
+
+}
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 9999;
+	}
+
+	#header.default{
+	position: fixed;
+	top: 0;
+	align-items: center;
+	justify-content: space-between;
+	width: 1902px;
+	background: white; 
+	
+}
+.menu{
+	list-style:none;
+	display: flex;
+	margin-right: 276px;
+	z-index: 231;
+}
+.menu_link{
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 28px;
+	color:#000;
+	text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.menu_link:hover {
+	color: #6620C5;
+	border-bottom: 1px solid rgba(97, 32, 234, 0.1);
+}
+.menu_item{
+	margin-left: 70px;
+	position: relative;
+}
+.image1{
+	margin-left: 627px;
+	z-index: 93;
+}
+.button1{
+	background: #F342A2;
+box-shadow: 0px 4px 10px #FB11B9;
+border-radius: 50px;
+padding: 20px 30px;
+color: white;
+font-size: 32px;
+font-style: normal;
+font-weight: normal;
+
+
+}
+.prokat h1{
+	font-size: 72px;
+line-height: 83px;
+color: #464646;
+margin-bottom: 44px;
+
+}
+.banner{
+
+	height: 1152px;
+	padding-top: 450px;
+	padding-bottom: 280px;
+	background: url(../img/ad1.png) no-repeat center top;
+	
+
+	
+	
+}
+.prokat{
+	margin-left: 6.063em;
+	margin-top: -10px;
+
+	
+}
+.prokat p{
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #616161;
+margin-bottom: 44px;
+
+}
+.foto12{
+	float: right;
+	margin-top: -600px;
+	margin-right: 168px;
+}
+.dogovor{
+position: relative;
+height: 1100px;
+background: url(../img/ad2.png) no-repeat center top;
+
+}
+.ysl p{
+	font-size: 24px;
+line-height: 41px;
+color: #707070;
+text-align: left;
+margin-top: 1em;
+margin-bottom: 1em;
+
+
+
+}
+.ysl{
+	align-items: center;
+	-ms-align-items:center;
+	max-width: 70%;
+	margin: 0 auto ;
+	align-items: center;
+	text-align: center;
+	padding-top: 159px;
+	
+
+}
+.yslprok {
+color: black;
+font-size: 36px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+
+}
+@media (min-width:200px) and (max-width:1300px) {
+   .foto12{
+       display:none;
+   }
+}
+.zakaz{
+	position: relative;
+height: 1100px;
+background: url(../img/ad3.png) no-repeat center top;
+}
+
+.zakaz-wrap{
+	text-align: center;
+	padding-top: 136px;
+}
+*:focus {outline: none;}
+
+
+
+.contact_form p {
+    	
+	margin:7px 10px 33px 10px;
+	padding:0px;
+}
+.contact_form{
+	
+}
+
+
+}
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:220px;}
+
+	
+	.contact_form input, .contact_form textarea { 
+			box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		
+		padding-left: 10px;
+		-moz-transition: padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.contact_form textarea{
+		width: 424px;
+		height: 206px;
+		background: #FFFFFF;
+border: 2px solid #737373;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 45px;
+padding-left: 20px;
+font-size: 24px;
+}
+.contact_form input{
+	width: 424px;
+height: 67px;
+background: #FFFFFF;
+border: 2px solid #737373;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 45px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+}
+	.contact_form input:focus, .contact_form textarea:focus {
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:70px;
+		font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+	}
+
+
+.contact_form input:required, .contact_form textarea:required {
+	background: #fff no-repeat 98% center;
+}
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	background: #fff no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	background: #fff no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+.form_hint {
+	background: #d45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; 
+	position: absolute; 
+	display: none;
+}
+.form_hint::before {
+	content: "\25C0";
+	color:#d45252;
+	position: absolute;
+	top:1px;
+	left:-6px;
+}
+.contact_form input:focus + .form_hint {display: inline;}
+.contact_form input:required:valid + .form_hint {background: #28921f;}
+.contact_form input:required:valid + .form_hint::before {color:#28921f;}
+	
+button.submit {
+	width: 231px;
+	height: 87px;
+	background-color: #F342A2;
+	border: 1px solid #F342A2;
+	border-bottom: 1px solid #F342A2;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	box-shadow: inset 0 1px 0 0 #F342A2;
+	-webkit-box-shadow: 0 1px 0 0 #F342A2 inset ;
+	-moz-box-shadow: 0 1px 0 0 #F342A2 inset;
+	-ms-box-shadow: 0 1px 0 0 #F342A2 inset;
+	-o-box-shadow: 0 1px 0 0 #F342A2 inset;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+	font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+}
+button.submit:hover {
+	opacity:.85;
+	cursor: pointer; 
+}
+button.submit:active {
+	border: 1px solid #F34211;
+	box-shadow: 0 0 10px 5px #F34211 inset; 
+	-webkit-box-shadow:0 0 10px 5px #F34211 inset ;
+	-moz-box-shadow: 0 0 10px 5px #F34211 inset;
+	-ms-box-shadow: 0 0 10px 5px #F342A2 inset;
+	-o-box-shadow: 0 0 10px 5px #F34211 inset;
+	
+}
+.zakaz-wrap h2{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+text-align: center;
+color: #464646;
+}
+/*таблица*/
+.table-wrap{
+color: white;
+display: inline-block;
+}
+td{
+	width: 212px;
+	height: 60px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+border-spacing: 7px 11px;
+	background: #545454;
+	font-size: 24px;
+	border-collapse: separate;
+	color: #fff;
+
+}
+th{
+	color: #fff;
+	background: #545454;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+font-size: 24px;
+border-spacing: 7px 11px;
+}
+.naim{
+	width: 212px;
+height: 86px;
+
+background: #545454;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
+font-size: 24px;
+line-height: 28px;
+color: #fff;
+}
+.first{
+	height: 34px;
+}
+.pay{
+	height: 37px;
+}
+table{
+	border-spacing: 7px 11px;
+	border-collapse: separate;
+	text-align: center;
+}
+.table_2{
+	background: url(../img/ad4.png) no-repeat center top;
+	
+}
+h3{
+	font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 50px;
+
+}
+.table_zog{
+	padding-top: 100px;
+align-items: center;
+text-align: center;
+}
+.velik{
+
+}
+.logos{
+
+}
+.loog{
+	text-align: right;
+}
